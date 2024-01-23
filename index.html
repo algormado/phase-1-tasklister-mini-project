@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flatiron Task Lister</title>
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -20,6 +21,17 @@
       <ul id="tasks">
       </ul>
     </div>
+
+<div>
+  <label for="priority">Priority:</label>
+  <select id="priority" name="priority">
+    <option value="high">High</option>
+    <option value="medium">Medium</option>
+    <option value="low">Low</option>
+  </select>
+</div>
+
+<ul id="taskList"></ul>
 
     <script src="./src/index.js"></script>
   </div>
